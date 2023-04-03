@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 13px; */
+    align-items: center;
+}
+
+.nexo{
+    display: flex;
+}
+.nexo img{
+    height: 60px;
+    width:  60px;
+}
+#ne{
+    padding-top: 10px;
+    color: rgb(53, 53, 205);
+    font-style: bold;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+
+}
+nav ul{
+    margin-left: 4px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.headlist{
+    display: flex;
+    list-style: none;
+    /* margin: auto; */
+    padding: 10px 10px 10px 10px;
+
+}
+
+.headlist li{
+    margin: 5px;
+}
+
+.sign a{
+    margin: 10px;
+    text-decoration: none;
+}
+#get{
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.icons{
+    border: 1.5px solid black;
+    margin-right: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    align-items: center;
+}
+
+section{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#sechead{
+    color: blue;
+    background-color:#edf8ff;
+    display: inline;
+    border-radius: 20px;
+    padding: 5px;
+    /* margin-bottom: 100px; */
+}
+
+#sech{
+    font-weight: 1000;
+    font-size: 48px;
+    font-style:bold ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#av{
+    color: rgb(20, 20, 198);
+}
+
+.para{
+    color: grey;
+    margin-bottom:10px ;
+}
+
+.lists{
+    display: flex;
+    margin-bottom: 20px;
+}
+.list2{
+    margin-left:20px ;
+}
+.list2 {
+    list-style: none;
+}
+.list1 {
+    list-style: none;
+}
+
+button{
+    background-color: rgb(90, 237, 100);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+.watch a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.right img{
+    width: 100%;
+    height: 500px;
+}
