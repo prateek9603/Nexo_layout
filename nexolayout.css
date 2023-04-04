@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+.container
+{
+    padding: 0 40px;
+}
 
 header{
     display: flex;
@@ -35,6 +39,7 @@ nav ul{
 nav a{
     text-decoration: none;
     color: black;
+    margin: 15px;
 }
 
 .headlist{
@@ -104,10 +109,11 @@ section{
     display: flex;
     margin-bottom: 20px;
 }
+ .lists ul li {
+    margin: 8px;
+ }
 .list2{
     margin-left:20px ;
-}
-.list2 {
     list-style: none;
 }
 .list1 {
@@ -115,11 +121,12 @@ section{
 }
 
 button{
-    background-color: rgb(90, 237, 100);
+    background-color: blue;
     padding: 10px;
     border: none;
     border-radius: 10px;
     color: #fff;
+    margin-right: 15px;
 }
 .watch a{
     text-decoration: none;
